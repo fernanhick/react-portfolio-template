@@ -1,27 +1,81 @@
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 
+import {MenuAltRight} from '@styled-icons/boxicons-regular/MenuAltRight';
+
+export const MenuIcon = styled(MenuAltRight)`
+  color: white;
+`;
+
+const neonbar = keyframes`
+0%,100%   { background-color: cyan;);}
+50%  {background-color: violet;}
+`;
+
 export const Nav = styled.nav`
-  height: 80px;
+  height: 2.4em;
+  width: 100vw;
   display: flex;
-  background: rgba(255, 255, 255, 0.3);
+  position: fixed;
+  z-index: 30;
+
+  background: rgba(0, 0, 0, 0.3);
+
   justify-content: center;
+  @media screen and (max-width: 678px) {
+  }
+  /*   animation: ${neonbar} 5s infinite;
+ */
 `;
 export const NavContainer = styled.div`
-  background: rgba(0, 0, 0, 0.3);
   display: flex;
+
   justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  flex-basis: 100%;
+  width: 80%;
+  padding: 0 0.7rem;
 `;
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
+  padding: 0;
+
+  margin: 0;
+  @media screen and (max-width: 678px) {
+    display: none;
+  }
 `;
 export const NavItem = styled.li`
   list-style: none;
 `;
-export const NavLink = styled(LinkR)`
+export const NavLink = styled(LinkS)`
   text-decoration: none;
+  cursor: pointer;
+  padding: 0 0.7rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #fff;
+
+  transition: all 0.2s ease-out;
+  &:hover {
+    text-shadow: 0px 0px 50px violet, 0px 0px 35px violet, 0px 0px 60px violet;
+  }
 `;
-export const NavButton = styled.button``;
-export const NavLogo = styled(LinkS)``;
+export const NavButton = styled.div`
+  width: 40px;
+  height: 40px;
+  display: none;
+  text-color: white;
+  @media screen and (max-width: 678px) {
+    display: flex;
+  }
+`;
+export const NavLogo = styled(LinkS)`
+  font-size: 1.3rem;
+  position: relative;
+  color: white;
+  padding: 0rem 0.5rem;
+`;
