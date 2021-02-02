@@ -45,11 +45,13 @@ export const DevTools = styled.ul`
   padding: 0;
   background: white;
   flex-basis: 25%;
+  border-radius: 0px 0px 10px 10px;
 `;
 export const ProjectImg = styled.div`
   width: 400px;
-  min-width: 300px;
-  min-height: 260px;
+  min-width: 180px;
+  min-height: 200px;
+
   display: flex;
 
   justify-content: space-between;
@@ -84,7 +86,7 @@ export const Detail = styled.div`
   alig-items: center;
   justify-content: space-beteween;
   box-shadow: 0px -8px 10px;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   overflow: hidden;
   @media screen and (max-width: 789px) {
   } ;
@@ -97,9 +99,9 @@ export const Topline = styled.h2`
   padding-right 0.8rem;
 `;
 export const Heading = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #d6d6d6;
-  height: 5rem;
+  height: 3rem;
 `;
 export const Decription = styled.p`
   color: #bdbdbd;

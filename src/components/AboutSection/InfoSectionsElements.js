@@ -5,7 +5,7 @@ export const AboutSec = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 4em 0;
 `;
 export const AboutCont = styled.div`

@@ -21,7 +21,7 @@ function ContactSection() {
             <SubmitLabel placeholder='Name' />
             <SubmitLabel placeholder='Email' />
             <SubmitDetails>
-              <SubmitDetHeader>Submit your details for contact</SubmitDetHeader>
+              <SubmitDetHeader></SubmitDetHeader>
               <SubmitDetDesc>
                 Please include your at least your email for me to be able to
                 contact you back.{' '}
