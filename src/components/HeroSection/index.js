@@ -1,16 +1,12 @@
-import gsap from 'gsap/gsap-core';
 import React from 'react';
 import {
   HeroBg,
-  HeroBtn,
   HeroBtnWrapper,
   HeroContainer,
   HeroContent,
   HeroDesc,
   HeroH1,
   HeroP,
-  HexCont,
-  Hex,
   Img,
   ImgWrap,
 } from './HeroSectionElements';

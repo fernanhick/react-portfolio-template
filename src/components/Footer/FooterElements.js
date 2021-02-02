@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-  background-color: #bdbdbd;
+  background-color: rgba(255, 11, 170, 1);
 `;
 export const FooterWrap = styled.div`
   display: flex;
@@ -91,6 +91,7 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
   color: black;
+  margin: 0.4rem;
 `;
 
 export const SocialIcons = styled.div`

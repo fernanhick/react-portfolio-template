@@ -46,18 +46,7 @@ function Navbar({toggle}) {
               spy={true}
               exact='true'
             >
-              Hobbies
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              to='contact'
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact='true'
-            >
-              Contact
+              Contact Me!
             </NavLink>
           </NavItem>
         </NavMenu>

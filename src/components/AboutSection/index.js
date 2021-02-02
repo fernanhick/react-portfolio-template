@@ -1,16 +1,11 @@
-import {gsap} from 'gsap';
-import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import React from 'react';
-import {useRef} from 'react';
-import {useEffect} from 'react';
-import {useIntersection} from 'react-use';
 import {
   AboutCont,
-  AboutSec,
-  AboutWrapper,
-  AboutHeader,
-  AboutSub,
   AboutDesc,
+  AboutHeader,
+  AboutSec,
+  AboutSub,
+  AboutWrapper,
   ImgWrap,
 } from './InfoSectionsElements';
 const AboutSection = () => {
@@ -25,6 +20,7 @@ const AboutSection = () => {
               width='200px'
               height='200px'
               background='grey'
+              alt='profile pic'
             />
           </ImgWrap>
           <AboutWrapper>

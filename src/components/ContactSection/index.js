@@ -2,31 +2,33 @@ import React from 'react';
 import {
   ContanctContainer,
   CWrapr,
-  SubmitForm,
-  SubmitNameLabel,
-  SubmitEmailLabel,
   SubmitButton,
   SubmitDetails,
-  SubmitDetHeader,
   SubmitDetDesc,
+  SubmitDetHeader,
+  SubmitForm,
+  SubmitLabel,
+  SunHead,
 } from './ContactSectionElements';
 
 function ContactSection() {
   return (
     <>
-      <ContanctContainer>
+      <ContanctContainer id='contact'>
         <CWrapr>
+          <SunHead>Contact Me!</SunHead>
           <SubmitForm>
-            <SubmitNameLabel placeholder='Name' />
-            <SubmitEmailLabel placeholder='Email' />
+            <SubmitLabel placeholder='Name' />
+            <SubmitLabel placeholder='Email' />
+            <SubmitDetails>
+              <SubmitDetHeader>Submit your details for contact</SubmitDetHeader>
+              <SubmitDetDesc>
+                Please include your at least your email for me to be able to
+                contact you back.{' '}
+              </SubmitDetDesc>
+            </SubmitDetails>
             <SubmitButton>Submit</SubmitButton>
           </SubmitForm>
-          <SubmitDetails>
-            <SubmitDetHeader>Submit your details for contact</SubmitDetHeader>
-            <SubmitDetDesc>
-              Only required its your email for contact.
-            </SubmitDetDesc>
-          </SubmitDetails>
         </CWrapr>
       </ContanctContainer>
     </>

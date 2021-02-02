@@ -4,13 +4,13 @@ export const ProjectCont = styled.div`
   position: relative;
   height: 100%;
   max-width: 300px;
+  box-shadow: inset 0px 0px 15px;
 
   border-radius: 10px;
   justify-content: center;
   align-items: center;
   margin: 20px;
   cursor: pointer;
-  padding: 0.8rem;
   background: rgba(255, 255, 255, 0.4);
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +83,7 @@ export const Detail = styled.div`
 
   alig-items: center;
   justify-content: space-beteween;
-  box-shadow: 8px 8px 15px;
+  box-shadow: 0px -8px 10px;
   border-radius: 10px;
   overflow: hidden;
   @media screen and (max-width: 789px) {
@@ -97,13 +97,13 @@ export const Topline = styled.h2`
   padding-right 0.8rem;
 `;
 export const Heading = styled.h1`
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   color: #d6d6d6;
   height: 5rem;
 `;
 export const Decription = styled.p`
   color: #bdbdbd;
-  margin: 0.8rem;
+  margin: 0 0.8rem;
   min-width: 70%;
   flex-basis: 70%;
 `;

@@ -1,5 +1,4 @@
 import styled, {keyframes} from 'styled-components';
-import {Hexagon} from '@styled-icons/feather/Hexagon';
 
 export const bgmotion = keyframes`
 0%,100%   { background-color: cyan;);}

@@ -1,19 +1,18 @@
 import React from 'react';
+import {projectsList} from './data';
 import {
   Decription,
+  DescWrap,
   Detail,
+  DevTools,
   Heading,
-  ProjectCont,
-  Topline,
-  ProjectImg,
   ImgD,
   ImgM,
   Mark,
-  MarkWrap,
-  DescWrap,
-  DevTools,
+  ProjectCont,
+  ProjectImg,
+  Topline,
 } from './ProjectsStyle';
-import {projectsList} from './data';
 
 const Projects = () => {
   return (
@@ -26,7 +25,7 @@ const Projects = () => {
               <ImgM src={data.imgMobile} alt={data.alt} />
             </ProjectImg>
             <Detail>
-              {data.dev == 'true' ? (
+              {data.dev === 'true' ? (
                 <Mark style={{background: 'green'}}>Working</Mark>
               ) : (
                 <Mark style={{background: 'orangeRed'}}>Developing</Mark>

@@ -1,8 +1,6 @@
-import styled, {keyframes} from 'styled-components';
-import {Link as LinkR} from 'react-router-dom';
-import {Link as LinkS} from 'react-scroll';
-
 import {MenuAltRight} from '@styled-icons/boxicons-regular/MenuAltRight';
+import {Link as LinkS} from 'react-scroll';
+import styled, {keyframes} from 'styled-components';
 
 export const MenuIcon = styled(MenuAltRight)`
   color: white;
@@ -34,9 +32,11 @@ export const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   z-index: 10;
-  flex-basis: 100%;
-  width: 80%;
+  width: 70vw;
   padding: 0 0.7rem;
+  @media screen and (max-width: 678px) {
+    width: 100vw;
+  } ;
 `;
 export const NavMenu = styled.ul`
   display: flex;

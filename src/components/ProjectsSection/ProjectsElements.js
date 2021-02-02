@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 
-export const ProjectsContainer = styled.div`
+export const ProjectsContainer = styled.section`
   height: 100%;
   width: 100%;
-  background: black;
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

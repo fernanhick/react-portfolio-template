@@ -5,16 +5,9 @@ import {
   SidebarContainer,
   SidebarLink,
   SidebarMenu,
-  SidebarRoute,
   SidebarWrapper,
-  SideBtnWrap,
 } from './SidebarElements';
-const Sidebar = ({isOpen, toggle, a, d, themeName}) => {
-  function setTheme(themeName) {
-    localStorage.setItem('theme', themeName);
-    document.documentElement.className = themeName;
-  }
-
+const Sidebar = ({isOpen, toggle}) => {
   const handleKeyDown = (event) => {
     console.log('A key was pressed', event.keyCode);
   };
@@ -53,15 +46,7 @@ const Sidebar = ({isOpen, toggle, a, d, themeName}) => {
           >
             Projects
           </SidebarLink>
-          <SidebarLink
-            to='hobbies'
-            duration={500}
-            spy={true}
-            exact='true'
-            onClick={toggle}
-          >
-            Hobbies
-          </SidebarLink>
+
           <SidebarLink
             to='contact'
             duration={500}
