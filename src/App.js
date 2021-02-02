@@ -3,6 +3,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
+import {Divider} from './components/Divider';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
@@ -23,7 +24,9 @@ const App = () => {
         <Sidebar toggle={toggle} isOpen={isOpen} />
         <HeroSection />
         <AboutSection />
+        <Divider />
         <ProjectsSection />
+        <Divider />
         <ContactSection />
         <Footer />
       </div>

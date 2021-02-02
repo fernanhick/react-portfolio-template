@@ -8,10 +8,14 @@ import {
   AboutWrapper,
   ImgWrap,
 } from './InfoSectionsElements';
+
+import {SectionsHeader} from '../SectionsHeaderStyle';
 const AboutSection = () => {
   return (
     <>
       <AboutSec id='about'>
+        {' '}
+        <SectionsHeader>About</SectionsHeader>{' '}
         <AboutCont>
           <ImgWrap>
             <img

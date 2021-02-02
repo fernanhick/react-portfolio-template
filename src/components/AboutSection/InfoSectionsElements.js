@@ -5,8 +5,12 @@ export const AboutSec = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  flex-direction: column;
   padding: 4em 0;
+  @media screen and (max-width: 678px) {
+    height: 100%;
+  }
 `;
 export const AboutCont = styled.div`
   display: flex;
@@ -14,7 +18,6 @@ export const AboutCont = styled.div`
   background: rgba(0, 0, 0, 0);
   justify-content: center;
   background: rgba(255, 255, 255, 0.02);
-
   max-width: 70%;
 
   align-items: center;

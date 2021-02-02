@@ -30,12 +30,14 @@ export const CWrapr = styled.div`
   z-index: 10;
   @media screen and (max-width: 489px) {
     width: 90%;
+    height: 70%;
   }
 `;
 export const SubmitForm = styled.form`
   display: flex;
   /*   flex-wrap: wrap;
  */
+  padding: 1.2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -43,6 +45,8 @@ export const SubmitForm = styled.form`
   height: 70vh;
 `;
 export const SubmitLabel = styled.input`
+  cursor: pointer;
+
   padding: 0.5em;
   margin: 0.5em;
   width: 20vw;
@@ -64,7 +68,13 @@ export const SubmitButton = styled.button`
   border: none;
   font-size: 1.2rem;
   padding: 0.1rem 3rem;
-  background: rgba(255, 11, 250, 0.6);
+  cursor: pointer;
+
+  background: rgba(255, 11, 250, 0.3);
+  &:hover {
+    background: rgba(255, 11, 250, 0.6);
+    box-shadow: 0 0 10px rgba(255, 11, 250, 1);
+  }
 `;
 export const SubmitDetails = styled.div`
   color: black;

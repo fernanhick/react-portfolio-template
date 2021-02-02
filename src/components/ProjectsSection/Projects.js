@@ -36,9 +36,6 @@ const Projects = () => {
                 <Decription>{data.description}</Decription>
                 <DevTools>
                   Languages:
-                  {/*  {data.languages.map((key) => {
-                    return <p key={key}>{key}</p>;
-                  })} */}
                   <p>{data.languages}</p>
                 </DevTools>
               </DescWrap>

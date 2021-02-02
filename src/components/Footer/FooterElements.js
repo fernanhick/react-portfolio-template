@@ -80,7 +80,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-  color: black;
+  color: white;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -90,7 +90,7 @@ export const SocialLogo = styled(Link)`
 `;
 
 export const WebsiteRights = styled.small`
-  color: black;
+  color: white;
   margin: 0.4rem;
 `;
 
@@ -103,5 +103,5 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled(Link)`
   font-size: 24px;
-  color: var(--light-text);
+  color: white;
 `;

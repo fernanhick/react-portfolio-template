@@ -22,8 +22,13 @@ function HeroSection() {
       <HeroContent>
         <HeroH1 className='box'>Welcome, Bienvenido </HeroH1>
         <HeroP>
-          My name is Fernando and I am a Software Engineer graduate focusing on
-          the development of web design, functionality and User Interface.
+          My name is Fernando Andres Fernandez Hickman, I am a Software Engineer
+          graduated with Honor's 2:1 in the university of John Moore's in
+          Liverpool.
+        </HeroP>
+        <HeroP>
+          This is my portfolio site where you can find some information about me
+          and current projects that I am working on.
         </HeroP>
         <HeroBtnWrapper>
           <a className='hero-btn' href='about'>

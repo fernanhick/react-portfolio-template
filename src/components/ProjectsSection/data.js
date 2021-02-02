@@ -29,27 +29,28 @@ export const projectsList = [
 
   {
     id: 'project-three',
-    topLine: ' React PWA + Styled Components',
-    headLine: ' Green Responsive',
-    description: 'This is a great responsive Web design layout for',
-    imgDesktop: '/images/neon/neon.png',
+    topLine: ' React Firebase-Auth +  React-Bootstrap',
+    headLine: ' Blue Auth',
+    description:
+      'Template website with Authorization using Firebase, basic routing for different pages and private routing access included. Responsive navbar with user detection if logged in and display or username with options',
+    imgDesktop: '/images/autho/desktop2.png',
     imgTablet: '/images/neon/ipad.png',
-    imgMobile: '/images/neon/mobile.png',
+    imgMobile: '/images/autho/mobil2.png',
     alt: 'React-PWA',
     dev: 'false',
-    languages: 'HTML, JavaScript, CSS, React JS, Styled Components.',
+    languages: 'HTML, JavaScript, CSS, React JS, React-Bootstrap, Firebase.',
   },
   {
     id: 'project-four',
-    topLine: ' React PWA + Styled Components',
-    headLine: ' Green Responsive',
+    topLine: 'React Dashboard + Firebase Auth + Styled Components',
+    headLine: '',
     description:
       'Lorem ipsum dolor sit amet consectetur, totam cumque tempore !.',
     imgDesktop: '/images/neon/neon.png',
     imgTablet: '/images/neon/ipad.png',
     imgMobile: '/images/neon/mobile.png',
     alt: 'React-PWA',
-    dev: 'true',
+    dev: 'false',
     languages: 'HTML, JavaScript, CSS, React JS, Styled Components.',
   },
 ];

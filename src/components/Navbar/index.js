@@ -1,4 +1,5 @@
 import React from 'react';
+import {SocialLogo} from '../Footer/FooterElements';
 import {
   Nav,
   NavButton,
@@ -10,11 +11,13 @@ import {
   MenuIcon,
 } from './NavbarElements';
 
-function Navbar({toggle}) {
+function Navbar({toggle, toggleHome}) {
   return (
     <Nav>
       <NavContainer>
-        <NavLogo to='#'>Fernando H</NavLogo>
+        <NavLink to='home' smooth={true} duration={500} spy={true} exact='true'>
+          Fernando H
+        </NavLink>
         <NavMenu>
           <NavItem>
             <NavLink
@@ -40,7 +43,7 @@ function Navbar({toggle}) {
           </NavItem>
           <NavItem>
             <NavLink
-              to='hobbies'
+              to='contact'
               smooth={true}
               duration={500}
               spy={true}

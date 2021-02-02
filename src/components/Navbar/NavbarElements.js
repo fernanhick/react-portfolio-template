@@ -19,7 +19,6 @@ export const Nav = styled.nav`
   z-index: 30;
   box-shadow: 0px 10px 25px;
   background: rgba(0, 0, 0, 1);
-
   justify-content: center;
   @media screen and (max-width: 678px) {
   }
@@ -33,6 +32,7 @@ export const NavContainer = styled.div`
   align-items: center;
   z-index: 10;
   width: 70vw;
+
   padding: 0 0.7rem;
   @media screen and (max-width: 678px) {
     width: 100vw;

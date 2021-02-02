@@ -97,6 +97,7 @@ export const Topline = styled.h2`
   text-align: right;
   background: rgba(0, 0, 0, 0.3);
   padding-right 0.8rem;
+  padding-left:20%;
 `;
 export const Heading = styled.h1`
   font-size: 2rem;
