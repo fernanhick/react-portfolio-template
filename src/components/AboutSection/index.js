@@ -16,10 +16,16 @@ import {
 const AboutSection = () => {
   return (
     <>
-      <AboutSec id='section'>
+      <AboutSec id='about'>
         <AboutCont>
           <ImgWrap>
-            <img id='profile' width='200px' height='200px' background='grey' />
+            <img
+              src='/images/prof.jpg'
+              id='profile'
+              width='200px'
+              height='200px'
+              background='grey'
+            />
           </ImgWrap>
           <AboutWrapper>
             <AboutHeader>Fernando Andres Fernandez Hickman</AboutHeader>

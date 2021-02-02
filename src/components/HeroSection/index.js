@@ -20,10 +20,7 @@ function HeroSection() {
     <HeroContainer id='home'>
       <HeroBg>
         <ImgWrap>
-          <Img
-            src='/images/1024.svg'
-            style={{height: 700 + 'px', width: 1200 + 'px'}}
-          />
+          <Img src='/images/1024.svg' />
         </ImgWrap>
       </HeroBg>
       <HeroContent>
@@ -33,7 +30,7 @@ function HeroSection() {
           the development of web design, functionality and User Interface.
         </HeroP>
         <HeroBtnWrapper>
-          <a className='hero-btn' href='#'>
+          <a className='hero-btn' href='about'>
             <span></span>
             <span></span>
             <span></span>

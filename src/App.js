@@ -7,6 +7,8 @@ import Sidebar from './components/Sidebar';
 import react, {useState} from 'react';
 
 import ProjectsSection from './components/ProjectsSection/Index';
+import Footer from './components/Footer';
+import ContactSection from './components/ContactSection';
 const App = () => {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -19,11 +21,11 @@ const App = () => {
       <div className='App'>
         <Navbar toggle={toggle} />
         <Sidebar toggle={toggle} isOpen={isOpen} />
-        {/*       <Footer />
-         */}{' '}
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
+        <ContactSection />
+        <Footer />
       </div>
     </Router>
   );

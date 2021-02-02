@@ -56,9 +56,9 @@ export const HeroBg = styled.div`
   background: rgb(255, 30, 239);
   background: linear-gradient(
     128deg,
-    rgba(255, 30, 239, 1) 2%,
-    rgba(50, 139, 156, 1) 4%,
-    rgba(199, 60, 216, 1) 6%,
+    rgba(255, 30, 239, 1) 20%,
+    rgba(50, 139, 156, 1) 40%,
+    rgba(199, 60, 216, 1) 60%,
     rgba(69, 192, 215, 1) 16%,
     rgba(255, 105, 244, 1) 17%,
     rgba(255, 255, 255, 0) 65%,
@@ -68,12 +68,13 @@ export const HeroBg = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  max-height: 700px;
-  max-width: 900px;
+  width: 100%;
 `;
 export const Img = styled.img`
   opacity: 0.4;
   z-index: 6;
+  width: 300%;
+  height: 300%;
 `;
 
 export const HeroContent = styled.div`
@@ -88,7 +89,7 @@ export const HeroContent = styled.div`
   border-radius: 5%;
   padding: 8px 32px;
   background: rgba(0, 0, 0, 0.23);
-  backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(6px);
 
   @media screen and (max-width: 480px) {
     width: 80%;
@@ -121,7 +122,7 @@ export const HeroDesc = styled.p`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #fff;
+  color: #bdbdbd;
   border-radius: 5px;
   padding: 12px;
   font-size: 1.1rem;

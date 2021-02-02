@@ -17,16 +17,48 @@ function Navbar({toggle}) {
         <NavLogo to='#'>Fernando H</NavLogo>
         <NavMenu>
           <NavItem>
-            <NavLink to='about'>About</NavLink>
+            <NavLink
+              to='about'
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+            >
+              About
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to='projects'>Projects</NavLink>
+            <NavLink
+              to='projects'
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+            >
+              Projects
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to='hobbies'>Hobbies</NavLink>
+            <NavLink
+              to='hobbies'
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+            >
+              Hobbies
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to='contact'>Contact</NavLink>
+            <NavLink
+              to='contact'
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+            >
+              Contact
+            </NavLink>
           </NavItem>
         </NavMenu>
         <NavButton onClick={toggle}>

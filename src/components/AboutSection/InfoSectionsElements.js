@@ -5,7 +5,7 @@ export const AboutSec = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 4em 0;
 `;
 export const AboutCont = styled.div`
@@ -15,7 +15,7 @@ export const AboutCont = styled.div`
   justify-content: center;
   background: rgba(255, 255, 255, 0.02);
 
-  max-width: 80%;
+  max-width: 70%;
 
   align-items: center;
   border-radius: 8px;
@@ -40,6 +40,7 @@ export const AboutSub = styled.h2`
 `;
 export const AboutDesc = styled.p`
   font-size: 1.1rem;
+  color: #bdbdbd;
 `;
 export const ImgWrap = styled.div`
   display: flex;

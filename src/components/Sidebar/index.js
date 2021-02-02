@@ -35,16 +35,40 @@ const Sidebar = ({isOpen, toggle, a, d, themeName}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about' onClick={toggle}>
+          <SidebarLink
+            to='about'
+            duration={500}
+            spy={true}
+            exact='true'
+            onClick={toggle}
+          >
             About
           </SidebarLink>
-          <SidebarLink to='projects' onClick={toggle}>
+          <SidebarLink
+            to='projects'
+            duration={500}
+            spy={true}
+            exact='true'
+            onClick={toggle}
+          >
             Projects
           </SidebarLink>
-          <SidebarLink to='hobbies' onClick={toggle}>
+          <SidebarLink
+            to='hobbies'
+            duration={500}
+            spy={true}
+            exact='true'
+            onClick={toggle}
+          >
             Hobbies
           </SidebarLink>
-          <SidebarLink to='contact' onClick={toggle}>
+          <SidebarLink
+            to='contact'
+            duration={500}
+            spy={true}
+            exact='true'
+            onClick={toggle}
+          >
             Contact
           </SidebarLink>
         </SidebarMenu>

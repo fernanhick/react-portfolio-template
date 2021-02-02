@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
 .App {
   text-align: center;
-  overflow: hidden;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

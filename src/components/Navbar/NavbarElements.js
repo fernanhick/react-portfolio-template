@@ -19,8 +19,8 @@ export const Nav = styled.nav`
   display: flex;
   position: fixed;
   z-index: 30;
-
-  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 25px;
+  background: rgba(0, 0, 0, 1);
 
   justify-content: center;
   @media screen and (max-width: 678px) {
