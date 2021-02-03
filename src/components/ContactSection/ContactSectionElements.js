@@ -53,6 +53,7 @@ export const SubmitLabel = styled.input`
   color: white;
   background: black;
   min-width: 20em;
+  max-width: 20em;
 
   max-height: 2vh;
   border: none;
@@ -67,10 +68,10 @@ export const SubmitButton = styled.button`
   border-radius: 0.5rem;
   border: none;
   font-size: 1.2rem;
-  padding: 0.1rem 3rem;
+  padding: 0.3rem 3rem;
   cursor: pointer;
 
-  background: rgba(255, 11, 250, 0.3);
+  background: rgba(255, 11, 170, 0.7);
   &:hover {
     background: rgba(255, 11, 250, 0.6);
     box-shadow: 0 0 10px rgba(255, 11, 250, 1);
