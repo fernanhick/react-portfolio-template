@@ -37,7 +37,7 @@ export const HeroContainer = styled.div`
   padding: 0;
   height: 100vh;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   z-index: 10;
 `;
 export const HeroBg = styled.div`

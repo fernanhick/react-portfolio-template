@@ -68,8 +68,8 @@ export const Detail = styled.div`
   min-width: 70%;
   /*   height: 100%;
  */
-  height: 30em;
-
+  /*   height: 30em;
+ */
   alig-items: center;
   justify-content: space-beteween;
   box-shadow: 0px -8px 10px;
@@ -93,7 +93,7 @@ export const Heading = styled.h1`
 `;
 export const Decription = styled.p`
   color: #bdbdbd;
-  margin: 0 0.8rem;
+  margin: 1rem 0.8rem;
   min-width: 70%;
   flex-basis: 70%;
 `;
@@ -106,8 +106,8 @@ export const DescWrap = styled.div`
 `;
 export const DevTools = styled.ul`
   margin: 0;
-  padding: 0.5rem;
-  background: white;
+  padding: 0.2rem;
+  background: rgba(255, 255, 255, 0.7);
   flex-basis: 25%;
   border-radius: 0px 0px 10px 10px;
 `;

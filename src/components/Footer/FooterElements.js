@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
   background-color: rgba(255, 11, 170, 1);
+  width: 100%;
 `;
 export const FooterWrap = styled.div`
   display: flex;

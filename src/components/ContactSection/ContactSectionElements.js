@@ -41,7 +41,7 @@ export const SubmitForm = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 11, 170, 0.5);
+  background-color: rgba(255, 11, 170, 1);
   height: 70vh;
 `;
 export const SubmitLabel = styled.input`
@@ -70,11 +70,11 @@ export const SubmitButton = styled.button`
   font-size: 1.2rem;
   padding: 0.3rem 3rem;
   cursor: pointer;
-
-  background: rgba(255, 11, 170, 0.7);
+  transition: all 0.5s ease-in;
+  background: rgba(255, 255, 250, 0.4);
   &:hover {
-    background: rgba(255, 11, 250, 0.6);
-    box-shadow: 0 0 10px rgba(255, 11, 250, 1);
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   }
 `;
 export const SubmitDetails = styled.div`
@@ -92,6 +92,7 @@ export const SunHead = styled.h1`
 export const SubmitDetDesc = styled.p`
   padding: 0 2rem;
   font-size: 1.2rem;
+  color: white;
 `;
 export const SubImg = styled.img`
   display: flex;

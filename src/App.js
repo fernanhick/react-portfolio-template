@@ -25,9 +25,7 @@ const App = () => {
         <HeroSection />
 
         <AboutSection />
-        <Divider />
         <ProjectsSection />
-        <Divider />
         <ContactSection />
         <Footer />
       </div>

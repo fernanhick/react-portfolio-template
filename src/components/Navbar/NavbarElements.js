@@ -13,7 +13,7 @@ const neonbar = keyframes`
 
 export const Nav = styled.nav`
   height: 2.4em;
-  width: 100vw;
+  width: 100%;
   display: flex;
   position: fixed;
   z-index: 30;
