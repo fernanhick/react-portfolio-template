@@ -37,20 +37,20 @@ export const projectsList = [
     imgTablet: '/images/neon/ipad.png',
     imgMobile: '/images/autho/mobil2.png',
     alt: 'React-PWA',
-    dev: 'false',
+    dev: 'true',
     languages: 'HTML, JavaScript, CSS, React JS, React-Bootstrap, Firebase.',
   },
   {
     id: 'project-four',
     topLine: 'React Dashboard + Firebase Auth + Styled Components',
-    headLine: '',
+    headLine: 'Glass Dashboard',
     description:
-      'Lorem ipsum dolor sit amet consectetur, totam cumque tempore !.',
-    imgDesktop: '/images/neon/neon.png',
-    imgTablet: '/images/neon/ipad.png',
+      'Template Design in Figma for a Dashboard design using a glass effect, this will include multiple sections within the dasboard options.',
+    imgDesktop: '/images/glass/glass.png',
+    /*   imgTablet: '/images/neon/ipad.png',
     imgMobile: '/images/neon/mobile.png',
-    alt: 'React-PWA',
+    alt: 'React-PWA', */
     dev: 'false',
-    languages: 'HTML, JavaScript, CSS, React JS, Styled Components.',
+    languages: 'HTML, JavaScript, CSS, React JS, Styled-Components, MongoDB.',
   },
 ];

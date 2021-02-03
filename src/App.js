@@ -23,6 +23,8 @@ const App = () => {
         <Navbar toggle={toggle} />
         <Sidebar toggle={toggle} isOpen={isOpen} />
         <HeroSection />
+        <Divider />
+
         <AboutSection />
         <Divider />
         <ProjectsSection />

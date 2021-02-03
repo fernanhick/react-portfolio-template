@@ -120,7 +120,7 @@ export const HeroDesc = styled.p`
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
+  margin-top: 5px;
   color: #bdbdbd;
   border-radius: 5px;
   padding: 12px;

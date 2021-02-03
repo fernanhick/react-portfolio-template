@@ -56,7 +56,7 @@ export const NavLink = styled(LinkS)`
   cursor: pointer;
   padding: 0 0.7rem;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   color: #fff;
 
   transition: all 0.2s ease-out;

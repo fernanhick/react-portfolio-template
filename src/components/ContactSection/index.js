@@ -1,4 +1,5 @@
 import React from 'react';
+import {SectionsHeader} from '../SectionsHeaderStyle';
 import {
   ContanctContainer,
   CWrapr,
@@ -14,6 +15,7 @@ import {
 function ContactSection() {
   return (
     <>
+      <SectionsHeader>Contact</SectionsHeader>
       <ContanctContainer id='contact'>
         <CWrapr>
           <SunHead>Contact Me!</SunHead>

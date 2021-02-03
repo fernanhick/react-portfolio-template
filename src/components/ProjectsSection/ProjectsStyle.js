@@ -33,20 +33,7 @@ export const Mark = styled.div`
   box-shadow: 0px 7px 15px;
   transform: rotate(-45deg);
 `;
-export const DescWrap = styled.div`
-  display: flex;
-  flex-direction: column;
 
-  justify-content: center;
-  flex: 1 1 1px;
-`;
-export const DevTools = styled.ul`
-  margin: 0;
-  padding: 0;
-  background: white;
-  flex-basis: 25%;
-  border-radius: 0px 0px 10px 10px;
-`;
 export const ProjectImg = styled.div`
   width: 400px;
   min-width: 180px;
@@ -109,4 +96,18 @@ export const Decription = styled.p`
   margin: 0 0.8rem;
   min-width: 70%;
   flex-basis: 70%;
+`;
+export const DescWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  flex: 1 1 1px;
+`;
+export const DevTools = styled.ul`
+  margin: 0;
+  padding: 0.5rem;
+  background: white;
+  flex-basis: 25%;
+  border-radius: 0px 0px 10px 10px;
 `;
